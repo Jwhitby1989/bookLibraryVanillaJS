@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="newAccount.css" />
+    <title>Bookr | New Account</title>
+  </head>
+  <body>
+    <div class="accountContainer">
+      <div class="toolbar">
+        <span class="logo">Bookr</span>
+      </div>
+      <br /><br />
+      <form id="form">
+        <label className="accountUsername">Please Make New Account!<br /></label
+        ><br />
+        <label className="accountName">Email:</label>
+        <input
+          value="jay@hotmail.com"
+          type="text"
+          id="accountEmail"
+          className="emailEntry"
+        />
+        <label className="accountName">Name:</label>
+        <input
+          value="name"
+          type="text"
+          id="accountName"
+          className="nameEntry"
+        />
+        <label className="accountAge">Age:</label>
+        <input
+          value="2023-02-22"
+          type="date"
+          id="accountAge"
+          className="passEntry"
+        />
+        <label className="passwordEntry">New Password:</label>
+        <input
+          value="password1"
+          type="text"
+          id="newPassword"
+          className="ageEntry"
+        />
+        <button type="submit" id="button">Submit</button><br />
+
+        <a href="/newPassword/newPassword.html"
+          ><button type="button" id="forgotPass">
+            Forgot Your Password?
+          </button></a
+        >
+        <a href="/index.html">
+          <button type="button" id="returnLogin">Return to Login?</button>
+        </a>
+      </form>
+    </div>
+    <script src="newAccount.js"></script>
+  </body>
+</html>

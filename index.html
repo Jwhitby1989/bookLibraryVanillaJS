@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Bookr | Login</title>
+  </head>
+  <body>
+    <div class="cardContainer">
+      <div class="toolbar">
+        <span class="logo">Bookr</span>
+      </div>
+      <br /><br />
+      <form id="form">
+        <label className="username">Username:</label>
+        <input
+          value="jay@hotmail.com"
+          type="text"
+          id="username"
+          className="nameEntry"
+        />
+        <br />
+        <label className="password">Password:</label>
+        <input
+          value="password1"
+          type="text"
+          id="passwordEntry"
+          className="passEntry"
+        />
+        <button type="button" id="button">Submit</button><br />
+        <a href="./newPassword/newPassword.html">
+          <button type="button" id="forgotPass">Forgot Your Password?</button>
+        </a>
+        <a href="./newAccount/newAccount.html">
+          <button id="newUser" type="button">Make An Account...</button>
+        </a>
+      </form>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
